@@ -8,7 +8,7 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 
 from characters.models import Character
-from serializers import CharacterSerializer
+from characters.serializers import CharacterSerializer
 
 
 @extend_schema(
